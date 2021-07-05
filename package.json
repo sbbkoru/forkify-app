@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Berkay B.",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.734",
+    "parcel": "^2.0.0-nightly.732"
+  },
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "fractional": "^1.0.0",
+    "regenerator": "^0.14.7",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
